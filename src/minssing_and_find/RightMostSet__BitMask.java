@@ -1,3 +1,5 @@
+package minssing_and_find;
+
 import java.util.Scanner;
 
 public class RightMostSet__BitMask {
@@ -8,9 +10,12 @@ public class RightMostSet__BitMask {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
 
+//    System.out.println(Integer.toBinaryString(n));
+//    System.out.println(Integer.toBinaryString(-n));
+
     int rmsb = n & -n;
 
-        System.out.println(Integer.toBinaryString(rmsb));
+    System.out.println(Integer.toBinaryString(rmsb));
 
     }
 }
